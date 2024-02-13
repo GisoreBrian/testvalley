@@ -1,0 +1,40 @@
+name: testvalley
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.0.0 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get:
+  connectivity_plus:
+  shared_preferences:
+  cached_network_image:
+  flutter_svg:
+  carousel_slider:
+  intl:
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Righteous
+      fonts: 
+        - asset: assets/fonts/RighteousRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+    - family: Roboto Condensed
+      fonts: 
+        - asset: assets/fonts/RobotoCondensedMediumItalic.ttf
+          weight: 500
